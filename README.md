@@ -10,3 +10,4 @@ A custom RAG app to vectorize information from pdf book such as Maths, Science o
 6. Used custom inference model(s) to do semantic chunking.
 7. For vectorization in Weaviate, again custom llm is used locally. (See t2v-inference on weaviate for more information)
 8. So, docker can be used to host Weaviate and the t2v-inference.
+9. db_interactions.py is where you can implement querying from the database and use your choice of llm. At the moment a simple functions are implemented without the llm 
